@@ -24,13 +24,15 @@
 ## Запуск
 
 ```bash
+git clone git@github.com:iudanet/grafana-example.git
+cd grafana-example
+
 docker compose pull
 docker compose up -d
 
 ```
 
 ## Логи
-
 ```bash
 docker compose logs -f --tail=1
 ```
@@ -42,14 +44,11 @@ docker compose ps
 ```
 
 ## Urls админок приложений
-
-[Grafana](http://127.1.1.1:3000)
-* авторизация `admin` : `admin`
-
-[Promitheus](http://127.1.1.1:9090)
-
-[Minio](http://127.1.1.1:9001)
-* авторизация `loki` :  `supersecret`
+* [Grafana](http://127.1.1.1:3000)
+    * авторизация `admin` : `admin`
+* [Promitheus](http://127.1.1.1:9090)
+*[Minio](http://127.1.1.1:9001)
+    * авторизация `loki` :  `supersecret`
 
 
 ## Доп настройка
