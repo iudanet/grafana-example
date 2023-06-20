@@ -6,6 +6,7 @@ networks:
 volumes:
   grafana_pg_data:
   prometheus_data:
+  minio_data:
 services:
   loki:
     restart: unless-stopped
@@ -62,7 +63,7 @@ services:
     ports:
       - 127.1.1.1:9001:9001
     volumes:
-      - ./.data/minio:/data
+      - minio_data:/data
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
       interval: 15s
