@@ -52,5 +52,6 @@ docker compose ps
 
 
 ## Доп настройка
- * Импортировать дашборд [Node Exporter](https://grafana.com/graBfana/dashboards/1860-node-exporter-full/)
- * Импортировать дашборд [cAdvisor](https://grafana.com/grafana/dashboards/10657-docker-and-system-monitoring/)
+* Импортировать дашборд [Node Exporter](https://grafana.com/graBfana/dashboards/1860-node-exporter-full/)
+* Импортировать дашборд [cAdvisor](https://grafana.com/grafana/dashboards/10657-docker-and-system-monitoring/)
+* Импортировать дашборд [Minio](https://grafana.com/grafana/dashboards/13502-minio-dashboard/)
